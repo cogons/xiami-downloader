@@ -16,10 +16,7 @@ function readfile(path) {
     })
 }
 
-var docs = _.map(readfile("./xiami2.json"), extract)
-    // var res = _.filter(docs, function(d) {
-    //     return d.singer == '田馥甄'
-    // })
+var docs = _.map(readfile("./hebe.json"), extract)
 
 function extract(doc) {
 
